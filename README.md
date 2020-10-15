@@ -48,9 +48,10 @@ Please note that for the trading logic to be valid, the relation between the buy
 
 To run the application, run the following command in a terminal window of the target directory of simple-trading-bot where values of cli arguments could be replaced with actual values:
 
-`java -jar  media-search-api-${project.version}.jar --spring.application.productId=sb26496 --spring.application.buyPrice=8000 --spring.application.upperSellingPrice=9000 --spring.application.lowerSellingPrice=2500`
+`java -jar  simple-trading-bot-1.0.0-SNAPSHOT.jar --spring.application.productId=sb26496 --spring.application.buyPrice=8000 --spring.application.upperSellingPrice=9000 --spring.application.lowerSellingPrice=2500`
 
 or by using the Maven command:
+
 `./mvnw spring-boot:run -Dspring-boot.run.arguments="--spring.application.productId=sb26496 --spring.application.buyPrice=8000 --spring.application.upperSellingPrice=9000 --spring.application.lowerSellingPrice=2500"`
 
 

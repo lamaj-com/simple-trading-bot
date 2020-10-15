@@ -24,7 +24,7 @@ public class BigMoney {
 
 	public BigMoney(BigDecimal amount) {
 		super();
-		this.amount = amount.toString(); // set to 10.0 for testing in Beta env
+		this.amount = "10.0"; // set to 10.0 for testing in Beta env, amount.toString() otherwise
 		this.decimals = Math.max(0, amount.stripTrailingZeros().scale());
 	}
 
